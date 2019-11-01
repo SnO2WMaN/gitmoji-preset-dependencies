@@ -1,6 +1,6 @@
 {
   "name": "gitmoji-presets-dependencies",
-  "description": "A gitmoji preset by SnO2WMaN",
+  "description": "gitmoji presets about dependencies",
   "license": "MIT",
   "author": "SnO2WMaN <sno2wman.official@gmail.com> (https://sno2wman.dev/)",
   "homepage": "https://github.com/SnO2WMaN/gitmoji-preset-dependencies#readme",
@@ -35,10 +35,6 @@
     "gitmoji",
     "gitmoji-preset"
   ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "scripts": {
     "test": "ava -v",
     "release": "np",
