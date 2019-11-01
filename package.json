@@ -1,0 +1,47 @@
+{
+  "name": "@sno2wman/gitmoji-preset",
+  "description": "A gitmoji preset by SnO2WMaN",
+  "license": "MIT",
+  "author": "SnO2WMaN <sno2wman.official@gmail.com> (https://sno2wman.dev/)",
+  "homepage": "https://github.com/SnO2WMaN/gitmoji-preset-sno2wman#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnO2WMaN/gitmoji-preset-sno2wman"
+  },
+  "bugs": {
+    "url": "https://github.com/SnO2WMaN/gitmoji-preset-sno2wman/issues"
+  },
+  "version": "1.0.1",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "devDependencies": {
+    "@conten2/eslint-config": "^2.0.1",
+    "@conten2/prettier-config": "^1.0.0",
+    "@sno2wman/prettier-package-json": "^2.0.2",
+    "add": "^2.0.6",
+    "ava": "^2.4.0",
+    "comment-inserter": "^1.0.3",
+    "concurrently": "^5.0.0",
+    "eslint": "^6.5.1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "np": "^5.1.1",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gitmoji",
+    "gitmoji-preset"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "ava -v",
+    "release": "np",
+    "version": "cuncurrently npm:version:*",
+    "version:list": "node list.js && git add README.md"
+  }
+}
