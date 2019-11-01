@@ -5,12 +5,12 @@
 ---
 
 <p align="center">
-<a href="https://www.npmjs.com/package/@sno2wman/gitmoji-preset"><img src="https://img.shields.io/npm/v/@sno2wman/gitmoji-preset?style=for-the-badge&logo=npm" alt="npm version"/></a>
+<a href="https://github.com/SnO2WMaN/gitmoji-preset-dependencies"><img src="https://img.shields.io/npm/v/gitmoji-preset-dependencies?style=for-the-badge&logo=npm" alt="npm version"/></a>
 
 <p>
 <div align="center">
 
-![Github Action](https://github.com/SnO2WMaN/gitmoji-preset/workflows/Node%20CI/badge.svg)
+![Github Action](https://github.com/SnO2WMaN/gitmoji-preset-dependencies/workflows/Node%20CI/badge.svg)
 
 </div>
 </p>
@@ -18,7 +18,7 @@
 <p>
 <div align="center">
 
-[![LICENSE](https://img.shields.io/github/license/sno2wman/gitmoji-preset?style=flat-square)](https://github.com/SnO2WMaN/gitmoji-preset/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/sno2wman/gitmoji-preset-dependencies?style=flat-square)](https://github.com/SnO2WMaN/gitmoji-preset/blob/master/LICENSE)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-25c4c3.svg?style=flat-square)](https://renovatebot.com/)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.carloscuesta.me)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -35,7 +35,7 @@
 ```json
 {
   "emojiFormat": "emoji",
-  "presets": ["@sno2wman/gitmoji-preset"]
+  "presets": ["dependencies"]
 }
 ```
 
@@ -45,48 +45,12 @@ _Watch **[index.json](https://github.com/SnO2WMaN/gitmoji-preset-sno2wman/blob/m
 
 <!-- COMMENT-INSERTER gitmojis:START -->
 
-| emoji |             code              | description                            |
-| :---: | :---------------------------: | -------------------------------------- |
-|  ✨   |         `:sparkles:`          | Introduce new features.                |
-|  👍   |         `:thumbsup:`          | Improve features!.                     |
-|  ⚡️  |            `:zap:`            | Update about performance.              |
-|  🐛   |            `:bug:`            | Fix bugs.                              |
-|  🚑   |         `:ambulance:`         | Create a hotfix.                       |
-|  ♻️   |          `:recycle:`          | Refactor codes.                        |
-|  🔧   |          `:wrench:`           | Change configuration.                  |
-|  🎨   |            `:art:`            | Update UI/UX.                          |
-|  🔥   |           `:fire:`            | Remove codes.                          |
-|  🚨   |          `:warning:`          | Add/Update tests.                      |
-|   🏗   |   `:building_construction:`   | Update structures.                     |
-|  🔒   |           `:lock:`            | Update security.                       |
-|  🚥   |       `:traffic_light:`       | Resolve Linter warning.                |
-|  🚧   |       `:construction:`        | Work in progress.                      |
-|  ⚓️  |          `:anchor:`           | Salvage old features.                  |
-|  💥   |           `:boom:`            | make a breaking change.                |
-|  🧪   |         `:test_tube:`         | Add experimental features.             |
-|   🗑   |        `:wastebasket:`        | Deprecate functions.                   |
-|  ⬆️   |         `:arrow_up:`          | Update dependencies.                   |
-|  ⬇️   |        `:arrow_down:`         | Downgrade dependencies.                |
-|  ➕   |      `:heavy_plus_sign:`      | Add dependencies.                      |
-|  ➖   |     `:heavy_minus_sign:`      | Remove dependencies.                   |
-|  📌   |          `:pushpin:`          | Pin dependencies to specific versions. |
-|  👷   |    `:construction_worker:`    | Maintain infrastructure.               |
-|  🌐   |   `:globe_with_meridians:`    | Translate.                             |
-|  📖   |         `:open_book:`         | Write docs.                            |
-|  💬   |      `:speech_balloon:`       | Update literal or text.                |
-|  🚚   |           `:truck:`           | Transfer files.                        |
-|  🍱   |           `:bento:`           | Add assets.                            |
-|  📷   |          `:camera:`           | Update snapshots.                      |
-|  🧹   |           `:bloom:`           | Format codes.                          |
-|  🆗   |            `:ok:`             | OK for the review.                     |
-|  ⏪   |          `:rewind:`           | Revert changes.                        |
-|  🔀   | `:twisted_rightwards_arrows:` | Merge branches.                        |
-|  📄   |      `:page_facing_up:`       | Attach a license.                      |
-|  🔖   |         `:bookmark:`          | Release.                               |
-|  🚀   |          `:rocket:`           | Deploy.                                |
-|  🙈   |        `:see_no_evil:`        | Ignore things.                         |
-|  👥   |    `:busts_in_silhouette:`    | Add a contributor.                     |
-|  💵   |          `:dollar:`           | Add financial things.                  |
-|  🎉   |           `:tada:`            | Init.                                  |
+| emoji |         code         | description                            |
+| :---: | :------------------: | -------------------------------------- |
+|  ⬆️   |     `:arrow_up:`     | Update dependencies.                   |
+|  ⬇️   |    `:arrow_down:`    | Downgrade dependencies.                |
+|  ➕   | `:heavy_plus_sign:`  | Add dependencies.                      |
+|  ➖   | `:heavy_minus_sign:` | Remove dependencies.                   |
+|  📌   |     `:pushpin:`      | Pin dependencies to specific versions. |
 
 <!-- COMMENT-INSERTER gitmojis:END -->
