@@ -1,0 +1,4 @@
+{
+  "emojiFormat": "emoji",
+  "presets": ["@sno2wman/gitmoji-preset"]
+}
