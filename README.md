@@ -1,4 +1,4 @@
-<h2 align="center">@sno2wman/gitmoji-preset</h2>
+<h2 align="center">gitmoji-preset-dependencies</h2>
 
 <p align="center">My presets for <a href="https://github.com/SnO2WMaN/customizable-gitmoji-cli">customizable-gitmoji-cli</a>!</p>
 
