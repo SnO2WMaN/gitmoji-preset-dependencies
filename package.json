@@ -22,7 +22,7 @@
     "@sno2wman/gitmoji-preset": "^1.0.1",
     "@sno2wman/prettier-package-json": "^2.0.2",
     "add": "^2.0.6",
-    "ava": "^2.4.0",
+    "ava": "^3.0.0",
     "comment-inserter": "^1.0.3",
     "concurrently": "^5.0.0",
     "eslint": "^6.5.1",
